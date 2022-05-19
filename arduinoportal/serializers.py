@@ -6,4 +6,4 @@ from .models import Info
 class InfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Info
-        fields = ('id','data','timeStp',)
+        fields = ('id','temperature','humidity','timeStp',)
